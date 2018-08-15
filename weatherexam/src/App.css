@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+ justify-content: center;
+ padding: 150px;
+  
+}
+
+.inside{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding: 250px;
+  background-color: rgb(49, 48, 48);
+  
+}
+
+body{
+  background-color: brown;
+  
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
