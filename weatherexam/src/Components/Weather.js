@@ -1,7 +1,18 @@
-import React from 'react';
-import axios from 'axios';
+import React, { Component } from "react";
+import "../App.css";
 
-class Weather extends React.Component {
-    
+class Weather extends Component {
+ render(){
+   return(
+      <div>
+        <p>TEMPERATURA: {this.props.temperature}</p>
+        <p>LUGAR:{this.props.city},{this.props.country}</p>
+        <p>HUMEDAD: {this.props.humidity} %</p>
 
+      </div>
+
+   )     
+ }
 }
+  
+  export default Weather;
